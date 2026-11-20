@@ -1,8 +1,5 @@
 # Aplikasi Akademik (PHP MVC) — Lecturers, Departments, Courses
 
-Tugas praktikum: mengubah aplikasi CRUD *Lecturers* (PHP prosedural) menjadi arsitektur **MVC**,
-lalu menambahkan tabel berelasi beserta CRUD-nya. Tanpa framework, tanpa `.htaccess`, cukup PHP + MySQL.
-
 ## 1. Cara Menjalankan
 
 1. Salin folder ini ke `htdocs` (XAMPP) atau document root web server.

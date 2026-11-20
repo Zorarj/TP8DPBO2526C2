@@ -1,0 +1,32 @@
+<div class="card mb-4">
+  <div class="card-header DATA_HEADER_CLASS text-white"><h5 class="mb-0">DATA_FORM_TITLE</h5></div>
+  <form method="post" action="index.php" class="card-body">
+    <input type="hidden" name="action" value="DATA_ACTION">
+    <input type="hidden" name="id" value="DATA_ID">
+    <div class="row g-3">
+      <div class="col-md-4"><label class="form-label">NAME</label>
+        <input type="text" name="name" class="form-control" value="DATA_NAME" required></div>
+      <div class="col-md-4"><label class="form-label">NIDN</label>
+        <input type="text" name="nidn" class="form-control" value="DATA_NIDN" required></div>
+      <div class="col-md-4"><label class="form-label">EMAIL</label>
+        <input type="email" name="email" class="form-control" value="DATA_EMAIL" required></div>
+      <div class="col-md-4"><label class="form-label">PHONE</label>
+        <input type="text" name="phone" class="form-control" value="DATA_PHONE" required></div>
+      <div class="col-md-4"><label class="form-label">JOIN DATE</label>
+        <input type="date" name="join_date" class="form-control" value="DATA_JOIN_DATE" required></div>
+      <div class="col-md-4"><label class="form-label">DEPARTMENT</label>
+        <select name="department_id" class="form-select">DATA_DEPARTMENT_OPTIONS</select></div>
+    </div>
+    <div class="mt-3">
+      <button class="btn btn-success" type="submit">Submit</button>
+      DATA_CANCEL
+    </div>
+  </form>
+</div>
+
+<table class="table table-striped">
+  <thead>
+    <tr><th>ID</th><th>NAME</th><th>NIDN</th><th>EMAIL</th><th>PHONE</th><th>JOIN DATE</th><th>DEPARTMENT</th><th>ACTIONS</th></tr>
+  </thead>
+  <tbody>DATA_TABEL</tbody>
+</table>

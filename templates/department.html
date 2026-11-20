@@ -1,0 +1,26 @@
+<div class="card mb-4">
+  <div class="card-header DATA_HEADER_CLASS text-white"><h5 class="mb-0">DATA_FORM_TITLE</h5></div>
+  <form method="post" action="department.php" class="card-body">
+    <input type="hidden" name="action" value="DATA_ACTION">
+    <input type="hidden" name="id" value="DATA_ID">
+    <div class="row g-3">
+      <div class="col-md-4"><label class="form-label">DEPARTMENT NAME</label>
+        <input type="text" name="department_name" class="form-control" value="DATA_DEPARTMENT_NAME" required></div>
+      <div class="col-md-4"><label class="form-label">FACULTY</label>
+        <input type="text" name="faculty" class="form-control" value="DATA_FACULTY" required></div>
+      <div class="col-md-4"><label class="form-label">OFFICE LOCATION</label>
+        <input type="text" name="office_location" class="form-control" value="DATA_OFFICE_LOCATION" required></div>
+    </div>
+    <div class="mt-3">
+      <button class="btn btn-success" type="submit">Submit</button>
+      DATA_CANCEL
+    </div>
+  </form>
+</div>
+
+<table class="table table-striped">
+  <thead>
+    <tr><th>ID</th><th>DEPARTMENT</th><th>FACULTY</th><th>OFFICE LOCATION</th><th>ACTIONS</th></tr>
+  </thead>
+  <tbody>DATA_TABEL</tbody>
+</table>
