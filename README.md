@@ -185,3 +185,6 @@ Klik "Edit" (link course.php?edit=5)
 - **Nilai NULL**: kolom relasi (`department_id`, `lecturer_id`) boleh kosong; controller mengubah string kosong menjadi `NULL` lewat `$nullable`.
 - **Menambah tabel baru**: buat satu model (turunan `DB`), satu view, satu controller (turunan `BaseController`), satu template HTML, dan satu file entry point.
 - **Penyesuaian dari kode awal**: kolom `email` dan `department_id` pada `lecturers` kini ikut digunakan di form; path redirect yang salah (`/bakekok/`, `crud100/`) tidak dipakai lagi.
+
+## Screen record
+https://drive.google.com/file/d/18eFq1N0HyIacUtlEEyuBBe4h28WnAkDm/view?usp=sharing
